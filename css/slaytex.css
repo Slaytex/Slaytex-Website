@@ -110,7 +110,7 @@ margin-top: 12px;
 .postercontainer
 {
     border-radius: 10px;
-    height: 411px;
+ /*   height: 411px;*/
     margin-top: 11px;
     overflow: hidden;
 }
