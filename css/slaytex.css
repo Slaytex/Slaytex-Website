@@ -1,0 +1,277 @@
+
+/*Carousel Fade CSS jsfiddle.net,Jh3rF,*/
+.carousel.carousel-fade .item {
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -ms-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.carousel.carousel-fade .next,
+.carousel.carousel-fade .prev {
+  left: 0;
+  z-index: 1;
+}
+
+.carousel.carousel-fade .carousel-control {
+  z-index: 3;
+}​
+/*End carousel Fade CSS*/
+
+
+
+
+.header
+{
+    margin-top: 0;
+    margin-bottom: 30px;
+    background-color: #80aa3f;
+    height: 110px;
+   
+}
+ 
+.slaytexlogo
+{
+    float: right;
+    right: 48px;
+    position: relative;
+}
+ 
+.otherworks
+{
+   margin: 20px 0 0;
+   font-size: 18px;
+   color: #656565;
+}
+ 
+.stripgraphic
+{
+height: 102px;
+background-color: green;
+background-color: #2e9ed0;
+margin-left: 0;
+margin-right: 0;
+margin-bottom: 30px;
+}
+
+.stripgraphic img
+{
+   
+    position: relative;
+    bottom: 21px;
+}
+
+.expand
+{
+	cursor: pointer;
+}
+ 
+
+.content {
+
+background-color:#fafafa;
+}
+
+
+
+.borderon
+{
+    border: 1px solid red;
+}
+
+
+
+.previewimage
+{
+display:inline-block;
+margin-top: 12px;
+
+}
+
+
+
+.bars
+{
+    position: relative;
+    margin-top: 14px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 18px 30px 3px 5px;
+    border: 1px solid #cdcdcd;
+}
+
+.postercontainer
+{
+    border-radius: 10px;
+    height: 411px;
+    margin-top: 11px;
+    overflow: hidden;
+}
+
+.postercontainerphone
+{
+    border-radius: 10px;
+    height: 491px;
+    margin-top: 11px;
+    overflow: hidden;
+}
+
+.postercontainertablet
+{
+    border-radius: 10px;
+    height: 309px;
+    margin-top: 11px;
+    overflow: hidden;
+}
+
+.branding
+{
+    font: bold 28px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    position: relative;
+    padding-bottom: 16px;
+    margin-bottom: 31px;
+    top: 32px;
+    color: #7bcff4;
+    text-shadow: 0 -1px 1px #21779d;
+}
+
+.brandingphone
+{
+    font: bold 28px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 19px;
+    margin-bottom: 31px;
+    color: #7bcff4;
+    text-shadow: 0 -1px 1px #21779d;
+    text-align: center;
+    top: 15px;
+}
+
+.brandingtablet
+{
+    font: bold 28px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    position: relative;
+    color: #7bcff4;
+    text-shadow: 0 -1px 1px #21779d;
+    top: 15px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.postercaption
+{
+    height: 31px;
+	position: relative;
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    text-align: center;
+    font: bold 11px/31px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    opacity: 0.76;
+	bottom: 42px;
+}
+
+
+
+
+
+
+.sociallinks
+{
+    font-size: 12px;
+    top: 3px;
+    position: relative;
+    margin-left: 8px;
+    font-weight: bold;
+    color: #8c8c8c;
+    letter-spacing: 0;
+}
+
+.socialicontop
+{
+
+    
+}
+
+.artwork
+{
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.socialiconbottom
+{
+    margin-bottom: 33px;
+}
+
+
+
+
+.centerit
+{
+	left: 11px;
+	position: relative;
+	padding-bottom: 0;
+}
+
+.imageshowhide
+{
+	display: none;
+}
+
+.barcontainer
+{
+	left: 12px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+
+.sonotube
+{
+    margin-top: 2px;
+}
+
+.bartitle
+{
+    margin: 0 0 4px;
+    color: #4A95B9;
+    font: bold 12px arial, helvetica;
+}
+
+.barcopy
+{
+    color: #444444;
+    font: 13px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    display: block;
+    margin: 0 !important;
+}
+
+.margintop20
+{
+    margin-top: 11px;
+    background-color: #f1f1f1;
+}
+
+
+.gradient
+{
+background: #fefefe; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkZGRkZGQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #fefefe 0%, #dddddd 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fefefe 0%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fefefe 0%,#dddddd 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fefefe 0%,#dddddd 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fefefe 0%,#dddddd 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#dddddd',GradientType=0 ); /* IE6-8 */
+}
+
