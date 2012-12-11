@@ -356,15 +356,16 @@
                 </div>
              </div>       
             
-                <div class="row-fluid">
-                    <h5 class="span12" style="text-align:center; background-color: #f1f1f1; height: 30px; line-height: 30px; margin: 0 0  5px 0;">My Vertical Farm Designs</h5>
-                    <img src="img/verticalfarm/hydroponiclogo.gif" alt="" />
-                    <img src="img/verticalfarm/verticalfarmv2.jpg" alt="" />
-                    <div class="margintop20"></div>
-                    <img src="img/verticalfarm/verticalfarmv1b.jpg" alt="" />
+					<div class="row-fluid">
+						<h5 class="span12" style="text-align:center; background-color: #f1f1f1; height: 30px; line-height: 30px; margin: 0 0  5px 0;">My Vertical Farm Designs</h5>
+						<div class="hidden-phone visible-desktop visible-tablet">
+						<img src="img/verticalfarm/hydroponiclogo.gif" alt="" />
+						<img src="img/verticalfarm/verticalfarmv2.jpg" alt="" />
+						<div class="margintop20"></div>
+						<img src="img/verticalfarm/verticalfarmv1b.jpg" alt="" /></div>
+					</div>
+				</div>
                 </div>
-            </div>
-               </div>
                
                <!--end right column-->
     
@@ -378,37 +379,42 @@
         	        <img class="avatar" src="img/avatar.png" alt="My alter ego" />        
         	        </div>
         		    <div class="span8">
-        		    <form>
+        		    <form id="slaytexContactForm" name="slaytexContactForm">
         		    <fieldset>
         		        <div class="span6">
         		        <label>Full Name</label>
-        		        <input class="span12 inputcolor" type="text" placeholder="">
+        		        <input id="sc_fullname" name="sc_fullname" class="span12 inputcolor" type="text" placeholder="">
         		        </div>
         		        <div class="span6">
         		        <label>Email</label>
-        		        <input class="span12 inputcolor" type="text" placeholder="">
+        		        <input id="sc_emailaddress" name="sc_emailaddress" class="span12 inputcolor" type="text" placeholder="">
         		        </div>
         		        <div>
         		        <label>Comments</label>
-        		        <textarea class="span12" rows="3"  placeholder=""></textarea>
+        		        <textarea id="sc_comments" name="sc_comments" class="span12" rows="3"  placeholder=""></textarea>
         		        </div>
         		        <div>
-        		        <button type="submit" class="btn btn-info btn-block span4">Send me your message</button>
+        		        <button id="sc_submit" class="btn btn-info btn-block span4">Send me your message</button>
         		        </div>
         		        <div class="span8">
+                        <noscript>
         		        <label class="checkbox checkmove">
         		        <a id="avatar"></a>
         		          <input type="checkbox"><small><span class="checkme">Please check before submitting.</span> <a href="#avatar" class="whatsthis" id="tooltip1" rel="tooltip" title="So I know you're human">Why?</a></small>
         		        </label>
+                        </noscript>
         		        </div>
         		        </fieldset>
+                        <input type="hidden" name="imahuman" id="imahuman" value="tobor" />
+                        <div id="loadergif"><img src="img/ajax-loader.gif"/></div>
+                        <div id="successMessage">Your Message has been sent successfully. Thank you.</div>
         		        </form>
         		    </div>
         		</div>
         	</footer>
         </div>
         <!--END FOOTER	-->
-        
+                
         
     </div>
 </div>
@@ -417,6 +423,7 @@
 
 <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/slaytex.js"></script>
 
 
 
