@@ -109,27 +109,11 @@ margin-top: 12px;
 
 .postercontainer
 {
-    border-radius: 10px;
- /*   height: 411px;*/
+
     margin-top: 11px;
     overflow: hidden;
 }
 
-.postercontainerphone
-{
-    border-radius: 10px;
-    height: 491px;
-    margin-top: 11px;
-    overflow: hidden;
-}
-
-.postercontainertablet
-{
-    border-radius: 10px;
-    height: 309px;
-    margin-top: 11px;
-    overflow: hidden;
-}
 
 .branding
 {
