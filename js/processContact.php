@@ -8,7 +8,7 @@ if($_POST['imahuman'] == "namuh"){
 	$message = $_POST['sc_comments'];
 
 	$to = "adam@adamwgd.com";
-	$subject = "Contact from Slayex.com";
+	$subject = "Contact from Chris Jacobs";
 	$body = "Full Name: ".$name."\n";
 	$body .= "Email Address: ".$email."\n";
 	$body .= "Comments: ".$message;
