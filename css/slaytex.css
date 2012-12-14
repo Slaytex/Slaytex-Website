@@ -20,6 +20,11 @@
   z-index: 1;
 }
 
+.scribbling
+{
+  height: 35px; background: #f5f5f5 url('../img/scribble.jpg') no-repeat left top;
+}
+
 .carousel.carousel-fade .carousel-control {
   z-index: 3;
 }​
@@ -27,12 +32,10 @@
 
 
 
-
 .header
 {
     margin-top: 0;
     margin-bottom: 30px;
-    background-color: #80aa3f;
     height: 110px;
    
 }
@@ -53,12 +56,12 @@
  
 .stripgraphic
 {
-height: 102px;
-background-color: green;
-background-color: #2e9ed0;
+height: 92px;
+background-color: #f5f5f5;
 margin-left: 0;
 margin-right: 0;
 margin-bottom: 30px;
+border: 1px solid #e7e7e7;
 }
 
 .stripgraphic img
@@ -117,14 +120,28 @@ margin-top: 12px;
 
 .branding
 {
-    font: bold 28px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font: bold 25px "ff-cocon-web-pro", Arial, Helvetica, Geneva, sans-serif;
     position: relative;
     padding-bottom: 16px;
     margin-bottom: 31px;
-    top: 32px;
-    color: #7bcff4;
-    text-shadow: 0 -1px 1px #21779d;
+    top: 22px;
+    color: #dcdcdc;
+    text-shadow: 0 -1px 1px #ffffff;
 }
+
+
+
+.brandingroll {
+   opacity: 1;
+   transition: color .25s ease-in-out;
+   -moz-transition: color .25s ease-in-out;
+   -webkit-transition: color .25s ease-in-out;
+   }
+
+   .brandingroll:hover {
+      color: #a5d1dd;
+  }
+
 
 .brandingphone
 {
